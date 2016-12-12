@@ -1,0 +1,55 @@
+export MYENVDIR=~/myenv
+
+bjn() {
+cd ~/works/jsir;
+gulp gyp;
+cp build/Release/jsir.node ../jsir-sdk/node_modules/jsir/lib/jsir.node;
+}
+alias edalias='vi ~/myenv/myalias'
+
+alias dbgcode='./scripts/code.sh --remote-debugging-port=9222'
+alias vscode='~/works/vscode/scripts/code.sh . --remote-debugging-port=9222'
+alias gojsir='cd ~/works/jsir'
+alias gojsdk='cd ~/works/jsir-sdk'
+alias cdtest='cd ~/works/jsir-sdk/test/hello'
+alias cdcode='cd ~/works/vscode'
+alias cdjsdb='cd ~/works/jsir/tools/vscodedebugger'
+alias cdbuild='cd ~/works/jsir/script/jsir-build/jsir-build'
+alias cdxzj='cd ~/works/muji-tec/projects/ime-xzj'
+alias cdxp='cd ~/works/mkxp/mkxp'
+#git
+alias gs='git status'
+alias gc='git commit -m'
+alias gadd='git add'
+alias td='jsir-db -command init'
+alias sshmac='ssh songliang@slmac.local'
+alias sshcos='ssh centos-linux'
+alias sshcvm='ssh ubuntu@vsoho.org'
+alias sshubt='ssh ubuntu.local'
+alias listens='netstat -nat | grep LISTEN'
+alias cdpm='cd ~/GoPATH/src/vsoho.org/Games/pacman'
+alias cdpmc='cd ~/GoPATH/src/vsoho.org/Games/pacman/PacMan'
+alias cdpms='cd ~/GoPATH/src/vsoho.org//Games/pacman/server'
+alias jb='jsir-build'
+alias gobin='cd $GOPATH/bin'
+alias gopkg='cd $GOPATH/pkg/darwin_amd64'
+alias gosrc='cd $GOPATH/src'
+alias gohost='cd $GOPATH/src/mujigame.com/jsir-host'
+alias goweb='cd $GOPATH/src/vsoho.org/Games/web'
+alias cdhost='ssh root@101.201.113.60'
+alias cdsdl='cd ~/works/sdl'
+alias pack='~/web/bootloader/webapp-1/pack.sh'
+alias jit='jsir-jit a.out a.js -pretty -aot'
+alias bit='jsir build'
+alias goc3='cd ~/works/cocos2d-x-3.13.1'
+alias goc3e='cd ~/works/cocos2d-x-3.13.1/tests/cpp-empty-test'
+alias goc3t='cd ~/works/cocos2d-x-3.13.1/tests/cpp-tests/proj.android-jsir'
+alias run='gulp run -pretty -aot -source-map'
+alias runa='gulp run -pretty -aot'
+alias gons='cd /Volumes/mac/newspace'
+alias gorun='cd /Users/songliang/works/UE/Samples/MobileStarterContent/Intermediate/Android'
+alias gojues='cd /Users/songliang/works/UE/Samples/MobileStarterContent/jsir'
+
+alias goue='cd ~/works/UE'
+alias gomfb='cd ~/works/slmac/MFB'
+alias gondk='cd ~/NVPACK/android-ndk-r12b'
