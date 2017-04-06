@@ -53,6 +53,7 @@ alias gorun='cd /Users/songliang/works/UE/Samples/MobileStarterContent/Intermedi
 alias gojues='cd /Users/songliang/works/UE/Samples/MobileStarterContent/jsir'
 
 alias goue='cd ~/works/UE'
+alias gojue='cd ~/works/ue-4.14.3'
 alias gomfb='cd ~/works/slmac/MFB'
 alias gondk='cd ~/NVPACK/android-ndk-r12b'
 alias goaz='cd ~/works/az'
