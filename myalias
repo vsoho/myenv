@@ -68,3 +68,8 @@ alias jstatic='gulp run -warm -compact -static'
 alias ue4='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/super8/MJCAR.uproject -project /Users/songliang/works/super8/MJCAR.uproject'
 
 alias gor='cd /Users/songliang/works/slmac/R'
+
+alias goInfinityBlade='cd ~/works/InfinityBlade'
+alias ueInfinityBlade='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/InfinityBlade/InfinityBlade.uproject -project /Users/songliang/works/InfinityBlade/InfinityBlade.uproject'
+alias cookInfinityBlade='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/InfinityBlade/InfinityBlade.uproject -run=cook -targetplatform=HTML5'
+
