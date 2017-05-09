@@ -73,3 +73,6 @@ alias goInfinityBlade='cd ~/works/InfinityBlade'
 alias ueInfinityBlade='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/InfinityBlade/InfinityBlade.uproject -project /Users/songliang/works/InfinityBlade/InfinityBlade.uproject'
 alias cookInfinityBlade='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/InfinityBlade/InfinityBlade.uproject -run=cook -targetplatform=HTML5'
 
+alias goGrassLands='cd ~/works/GrassLands'
+alias ueGrassLands='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/GrassLands/GrassLands.uproject -project /Users/songliang/works/GrassLands/GrassLands.uproject'
+alias cookGrassLands='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/GrassLands/GrassLands.uproject -run=cook -targetplatform=HTML5'
