@@ -77,3 +77,6 @@ alias goGrassLands='cd ~/works/GrassLands'
 alias ueGrassLands='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/GrassLands/GrassLands.uproject -project /Users/songliang/works/GrassLands/GrassLands.uproject'
 alias cookGrassLands='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/GrassLands/GrassLands.uproject -run=cook -targetplatform=HTML5'
 alias gocop='cd ~/works/slmac/cop'
+
+alias goSnakes='cd ~/works/Snakes'
+alias goSnakesClient='cd ~/works/Snakes/Snakes'
