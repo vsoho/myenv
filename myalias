@@ -80,3 +80,7 @@ alias gocop='cd ~/works/slmac/cop'
 
 alias goSnakes='cd ~/works/Snakes'
 alias goSnakesClient='cd ~/works/Snakes/Snakes'
+
+alias goworks='cd ~/works'
+alias gosnake='cd ~/works/snake'
+alias sshsnake='ssh songliang@101.201.197.143'
