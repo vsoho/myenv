@@ -78,10 +78,9 @@ alias ueGrassLands='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Edit
 alias cookGrassLands='/Users/songliang/works/ue-4.14.3/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor /Users/songliang/works/GrassLands/GrassLands.uproject -run=cook -targetplatform=HTML5'
 alias gocop='cd ~/works/slmac/cop'
 
-alias goSnakes='cd ~/works/Snakes'
-alias goSnakesClient='cd ~/works/Snakes/Snakes'
-
 alias goworks='cd ~/works'
+
+alias gosnakeclient='cd ~/works/snake/Snakes'
 alias gosnake='cd ~/works/snake'
 alias sshsnake='ssh songliang@101.201.197.143'
 
