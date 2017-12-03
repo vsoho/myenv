@@ -1,5 +1,11 @@
 export MYENVDIR=~/myenv
 
+build() {
+gulp init;
+gulp build_native;
+gulp build -pretty -js;
+gulp run -pretty -aot=js -no-pass-i64 -map=t.txt;
+}
 bjn() {
 cd ~/works/jsir;
 gulp gyp;
