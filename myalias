@@ -4,15 +4,15 @@ build() {
 gulp init;
 gulp build_native;
 gulp build -pretty -js;
-gulp run -pretty -aot=js -no-pass-i64 -map=t.txt;
+gulp run -pretty -aot=js -no-pass-i64 -map=t.txt -boot=boot.js;
 }
-bjn() {
-cd ~/works/jsir;
-gulp gyp;
-cp build/Release/jsir.node ../jsir-sdk/node_modules/jsir/lib/jsir.node;
+buildapi() {
+gulp build_native;
+gulp build -pretty -js;
+gulp run -pretty -aot=js -no-pass-i64 -map=t.txt -boot=boot.js;
 }
 alias edalias='vi ~/myenv/myalias'
-
+alias run='gulp run -pretty -aot=js -no-pass-i64'
 alias dbgcode='./scripts/code.sh --remote-debugging-port=9222'
 alias vscode='~/works/vscode/scripts/code.sh . --remote-debugging-port=9222'
 alias gojsir='cd ~/works/jsir'
@@ -52,8 +52,7 @@ alias bit='jsir build'
 alias goc3='cd ~/works/cocos2d-x-3.13.1'
 alias goc3e='cd ~/works/cocos2d-x-3.13.1/tests/cpp-empty-test'
 alias goc3t='cd ~/works/cocos2d-x-3.13.1/tests/cpp-tests/proj.android-jsir'
-alias run='gulp run -pretty -aot -source-map'
-alias runa='gulp run -pretty -aot'
+
 alias gons='cd /Volumes/mac/newspace'
 alias gorun='cd /Users/songliang/works/UE/Samples/MobileStarterContent/Intermediate/Android'
 alias gojues='cd /Users/songliang/works/UE/Samples/MobileStarterContent/jsir'
