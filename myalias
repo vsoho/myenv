@@ -12,7 +12,7 @@ gulp build -pretty -js;
 gulp run -pretty -aot=js -no-pass-i64 -map=t.txt -boot=boot.js;
 }
 alias edalias='vi ~/myenv/myalias'
-alias run='gulp run -pretty -aot=js -no-pass-i64'
+alias run='gulp run -pretty -aot=js -no-pass-i64 -map=t.txt'
 alias dbgcode='./scripts/code.sh --remote-debugging-port=9222'
 alias vscode='~/works/vscode/scripts/code.sh . --remote-debugging-port=9222'
 alias gojsir='cd ~/works/jsir'
@@ -24,6 +24,7 @@ alias cdjsdb='cd ~/works/jsir/tools/vscodedebugger'
 alias cdbuild='cd ~/works/jsir/script/jsir-build/jsir-build'
 alias cdxzj='cd ~/works/muji-tec/projects/ime-xzj'
 alias cdxp='cd ~/works/mkxp/mkxp'
+alias gowzzy='cd ~/works/www/t1/Build'
 #git
 alias gs='git status'
 alias gc='git commit -m'
