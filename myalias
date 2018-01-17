@@ -24,7 +24,7 @@ alias cdjsdb='cd ~/works/jsir/tools/vscodedebugger'
 alias cdbuild='cd ~/works/jsir/script/jsir-build/jsir-build'
 alias cdxzj='cd ~/works/muji-tec/projects/ime-xzj'
 alias cdxp='cd ~/works/mkxp/mkxp'
-alias gowzzy='cd ~/works/www/t1/Build'
+alias gowzzy='cd ~/works/wzzy-3d-mmorpg/www/jsir'
 #git
 alias gs='git status'
 alias gc='git commit -m'
@@ -93,5 +93,7 @@ alias goballoon='cd ~/works/balloon'
 alias mysnake='cd ~/works/slmac/snake'
 alias mysnakeclient='cd ~/works/slmac/snake/Snakes'
 alias mysnakeserver='cd ~/works/slmac/snake/SnakeServer'
-
+alias buildjs='gulp build -pretty -js'
+alias runjs='gulp run -pretty -aot=js'
+alias runwasm='gulp run -pretty -aot=wasm'
 
