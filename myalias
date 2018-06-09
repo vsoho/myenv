@@ -97,3 +97,16 @@ alias buildjs='gulp build -pretty -js'
 alias runjs='gulp run -pretty -aot=js'
 alias runwasm='gulp run -pretty -aot=wasm'
 
+redebug() {
+gojsdk
+cd src/web-system
+jsir-build
+gojsdk
+cd src/unity-emcc
+jsir-build
+cd ~/works/webir
+buildjs
+runjs
+}
+
+alias goh5='cd ~/works/h5'
