@@ -11,6 +11,12 @@ gulp build_native;
 gulp build -pretty -js;
 gulp run -pretty -aot=js -no-pass-i64 -map=t.txt -boot=boot.js;
 }
+
+emccstart() {
+cd ~/works/emsdk;
+source ./emsdk_env.sh;
+}
+
 alias edalias='vi ~/myenv/myalias'
 alias run='gulp run -pretty -aot=js -no-pass-i64 -map=t.txt'
 alias dbgcode='./scripts/code.sh --remote-debugging-port=9222'
@@ -96,4 +102,19 @@ alias mysnakeserver='cd ~/works/slmac/snake/SnakeServer'
 alias buildjs='gulp build -pretty -js'
 alias runjs='gulp run -pretty -aot=js'
 alias runwasm='gulp run -pretty -aot=wasm'
+alias jcrun='jsir-cloud run'
+alias jcupload='jsir-cloud upload'
+alias jcbake='jsir-cloud bake'
+alias jcstatus='jsir-cloud status'
 
+alias codeil2='code /Volumes/mac/Applications/Unity201730f0/Unity.app/Contents/il2cpp'
+rrunjs() {
+gojsdk
+cd src/web-system
+jsir-build
+cd ../unity-emcc
+jsir-build
+cd ~/works/unitytest/webir
+buildjs
+runjs
+}
