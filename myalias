@@ -40,6 +40,9 @@ alias sshmac='ssh songliang@slmac.local'
 alias sshcos='ssh centos-linux'
 alias sshcvm='ssh ubuntu@vsoho.org'
 alias sshubt='ssh ubuntu.local'
+alias sshali='ssh root@101.132.96.39'
+alias sshaws='ssh ubuntu@13.251.102.86'
+
 alias listens='netstat -nat | grep LISTEN'
 alias cdpm='cd ~/GoPATH/src/vsoho.org/Games/pacman'
 alias cdpmc='cd ~/GoPATH/src/vsoho.org/Games/pacman/PacMan'
@@ -118,3 +121,16 @@ cd ~/works/unitytest/webir
 buildjs
 runjs
 }
+redebug() {
+gojsdk
+cd src/web-system
+jsir-build
+gojsdk
+cd src/unity-emcc
+jsir-build
+cd ~/works/webir
+buildjs
+runjs
+}
+
+alias goh5='cd ~/works/h5'
