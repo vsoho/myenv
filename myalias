@@ -135,4 +135,4 @@ runjs
 
 alias goh5='cd ~/works/h5'
 alias gpa='git push --all'
-alias pa='git pull --all'
+alias ppa='git pull --all'
