@@ -1,17 +1,5 @@
 export MYENVDIR=~/myenv
 
-build() {
-gulp init;
-gulp build_native;
-gulp build -pretty -js;
-gulp run -pretty -aot=js -no-pass-i64 -map=t.txt -boot=boot.js;
-}
-buildapi() {
-gulp build_native;
-gulp build -pretty -js;
-gulp run -pretty -aot=js -no-pass-i64 -map=t.txt -boot=boot.js;
-}
-
 emccstart() {
 cd ~/works/emsdk;
 source ./emsdk_env.sh;
@@ -109,29 +97,6 @@ alias jcrun='jsir-cloud run'
 alias jcupload='jsir-cloud upload'
 alias jcbake='jsir-cloud bake'
 alias jcstatus='jsir-cloud status'
-
-alias codeil2='code /Volumes/mac/Applications/Unity201730f0/Unity.app/Contents/il2cpp'
-rrunjs() {
-gojsdk
-cd src/web-system
-jsir-build
-cd ../unity-emcc
-jsir-build
-cd ~/works/unitytest/webir
-buildjs
-runjs
-}
-redebug() {
-gojsdk
-cd src/web-system
-jsir-build
-gojsdk
-cd src/unity-emcc
-jsir-build
-cd ~/works/webir
-buildjs
-runjs
-}
 
 alias goh5='cd ~/works/h5'
 alias gpa='git push --all'
